@@ -1,0 +1,28 @@
+.cart {
+    max-width: 25rem;
+    padding: 2rem;
+    border: 1rem solid #ccc;
+}
+.title {
+    font-size: 2rem;
+}
+
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.itemsTitle {
+    font-size: 1rem;
+}
+.actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.count,
+.btn {
+    padding: 0.5rem;
+    font-size: 1rem;
+    line-height: 1em; 
+}
